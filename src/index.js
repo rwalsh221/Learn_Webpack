@@ -7,3 +7,4 @@ import {ComponentService} from './app/component.service';
 const alertService = new AlertService();
 const componentService = new ComponentService();
 run(alertService, componentService);
+console.log('hello clean')
